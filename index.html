@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <script src="arrumador_de_rolagem.js"></script>
     <div class="background-image"></div>
     <div class="content-container">
         <div class="background-image"></div>
@@ -23,16 +24,30 @@
 
             <main>
 
-                <article class="transparent-box">
-                    <h2>Tópicos Abordados</h2>
-                    <ul id="magik-menu">
-                        <li><a href="#info-geral">Informações Gerais</a></li>
-                        <li><a href="#habilidades">Habilidades</a></li>
-                        <li><a href="#como-jogar">Como Jogar</a></li>
-                        <li><a href="#skins">Skins</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
-                </article>
+                <nav class="navbar navbar-expand-lg custom-navbar transparent-box">
+                    <div class="container-fluid">
+                        <h2 id="topicos">Tópicos Abordados</h2>
+                        <div class="collapse navbar-collapse" id="navbarTopics">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="magik-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#info-geral">Informações Gerais</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#habilidades">Habilidades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#como-jogar">Como Jogar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#skins">Skins</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#contato">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
 
                 <article class="transparent-box" id="info-geral">
                     <h2>Informações Gerais</h2>
@@ -267,10 +282,8 @@
                 <article class="transparent-box" id="skins">
                     <h2>Skins</h2>
 
-                    <!-- Container flexível para carrosséis lado a lado -->
                     <div class="d-flex justify-content-center flex-wrap" style="gap: 45px;">
 
-                        <!-- Carrossel 1 -->
                         <div id="carouselPunk" class="carousel slide" data-bs-ride="carousel"
                             style="width: 250px; height: 250px;">
                             <div class="carousel-inner">
@@ -294,7 +307,6 @@
                         </div>
 
 
-                        <!-- Carrossel 2 -->
                         <div id="carouselArmor" class="carousel slide" data-bs-ride="carousel"
                             style="width: 250px; height: 250px;">
                             <div class="carousel-inner">
@@ -317,7 +329,6 @@
                             </button>
                         </div>
 
-                        <!-- Carrossel 3 -->
                         <div id="carouselAmethyst" class="carousel slide" data-bs-ride="carousel"
                             style="width: 250px; height: 250px;">
                             <div class="carousel-inner">
@@ -361,7 +372,6 @@
                 </article>
             </main>
         </div>
-
         <script src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
