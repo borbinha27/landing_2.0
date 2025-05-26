@@ -57,7 +57,7 @@
                   <button type="button" class="btn btn-primary">Sim</button>
                   <button type="button" class="btn btn-danger" data-bs-toggle="popover" 
                           data-bs-title="Agradecemos a preferência" 
-                          data-bs-content="<div style='font-family: monospace; white-space: pre'>${loadingText}</div>"
+                          data-bs-content="<div style='font-family: monospace; white-space: pre'>Carregando... ${loadingText}</div>"
                           data-bs-html="true">
                       Não
                   </button>
