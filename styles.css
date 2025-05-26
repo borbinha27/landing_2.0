@@ -291,6 +291,23 @@ h2 {
     border-top-color: #f8f9fa;
 }
 
+.carousel-control-prev {
+  left: -30px;
+}
+.carousel-control-next {
+  right: -30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  opacity: 0.3;
+}
+
+.popover-header {
+  color: black;
+}
+
+
 @media (max-width: 768px) {
     .content-container {
         padding: 10px;
@@ -305,4 +322,3 @@ h2 {
         height: auto;
     }
 }
-
